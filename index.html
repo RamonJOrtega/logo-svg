@@ -42,8 +42,17 @@
         transform="rotate(20)"
         />
         
+           
+     
+
+
         <defs>
-            <clipPath id="spokeCutOuts">
+            <Mask id="spokeCutOuts">
+                <circle 
+                id="spokeStock"
+                cx="0" cy="0" r="7.25" 
+                fill ="white" 
+                />
                 <path
                 d="
                 M -1.262 -1.942
@@ -109,24 +118,22 @@
                 A 1 1 0 0 0 -1.262 -1.942
                 "
             />
-            </clipPath>
+            </Mask>
         </defs>
       
+        <circle 
+        Mask="url(#spokeCutOuts)"
+        id="spokeStock"
+        cx="0" cy="0" r="7.25" 
+        fill ="grey" 
+        />
        
 
 
 
 
     
-    
-        <circle 
-        clip-path="url(#spokeCutOuts)"
-        clip-rule="nonzero"
-        id="spokeStock"
-        cx="0" cy="0" r="7.25" 
-        fill ="grey" 
-        />
-
+ 
        
     </svg>
     
