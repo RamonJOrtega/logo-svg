@@ -1,10 +1,28 @@
 <svg width="400" height="400" viewBox="-12.5 -12.5 25 25" xmlns="http://www.w3.org/2000/svg">
 
+  <style>
+    #tireC, #outerWheelC, path{
+      stroke: #262626
+    }
+    path {
+      fill: #262626
+    }
+  </style>
+
+  <defs>
+     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#BA8B02;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#262626;stop-opacity:1" />
+      
+    </linearGradient>
+
+  </defs>
+
   <circle 
       id="tireC"
       cx="0" cy="0" r="11.25" 
       fill ="transparent" 
-      stroke="grey" 
+      
       stroke-width="2.5"
       stroke-dasharray="62.8319"
       stroke-linecap="round"
@@ -16,7 +34,7 @@
     cx="0" cy="0" r="8.625" 
     fill ="transparent" 
     stroke="grey" 
-    stroke-width="2.79" 
+    stroke-width="2.85" 
     stroke-dasharray="48.1711"
     stroke-linecap="round"
     transform="rotate(20)"
@@ -25,7 +43,7 @@
     id="wheelC"
     cx="0" cy="0" r="8.625" 
     fill ="transparent" 
-    stroke="gold" 
+    stroke="url(#grad1)" 
     stroke-width="2.25"
     stroke-dasharray="48.1711"
     stroke-linecap="round"
@@ -113,7 +131,7 @@
 
   <g>
     <path 
-      fill="grey" stroke="grey" stroke-width=".05"
+      stroke-width=".1"
       d="
         M 0 0
         L .553 1.668
@@ -130,7 +148,7 @@
     />
     <path 
       transform="rotate(72)"
-       fill="grey" stroke="grey" stroke-width=".05"
+       stroke-width=".1"
       d="
         M 0 0
         L .553 1.668
@@ -147,7 +165,7 @@
     />
       <path 
       transform="rotate(144)"
-       fill="grey" stroke="grey" stroke-width=".05"
+       stroke-width=".1"
       d="
         M 0 0
         L .553 1.668
@@ -164,7 +182,7 @@
     />
       <path 
       transform="rotate(-144)"
-       fill="grey" stroke="grey" stroke-width=".05"
+       stroke-width=".1"
       d="
         M 0 0
         L .553 1.668
@@ -181,7 +199,7 @@
     />
       <path 
       transform="rotate(-72)"
-       fill="grey" stroke="grey" stroke-width=".1"
+      stroke-width=".1"
       d="
         M 0 0
         L .553 1.668
