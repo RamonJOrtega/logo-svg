@@ -16,7 +16,7 @@
     cx="0" cy="0" r="8.625" 
     fill ="transparent" 
     stroke="grey" 
-    stroke-width="2.75"
+    stroke-width="2.79" 
     stroke-dasharray="48.1711"
     stroke-linecap="round"
     transform="rotate(20)"
@@ -113,7 +113,7 @@
 
   <g>
     <path 
-      fill="grey"
+      fill="grey" stroke="grey" stroke-width=".05"
       d="
         M 0 0
         L .553 1.668
@@ -130,7 +130,7 @@
     />
     <path 
       transform="rotate(72)"
-       fill="grey"
+       fill="grey" stroke="grey" stroke-width=".05"
       d="
         M 0 0
         L .553 1.668
@@ -147,7 +147,7 @@
     />
       <path 
       transform="rotate(144)"
-       fill="grey"
+       fill="grey" stroke="grey" stroke-width=".05"
       d="
         M 0 0
         L .553 1.668
@@ -164,7 +164,7 @@
     />
       <path 
       transform="rotate(-144)"
-       fill="grey"
+       fill="grey" stroke="grey" stroke-width=".05"
       d="
         M 0 0
         L .553 1.668
@@ -181,7 +181,7 @@
     />
       <path 
       transform="rotate(-72)"
-       fill="grey"
+       fill="grey" stroke="grey" stroke-width=".05"
       d="
         M 0 0
         L .553 1.668
