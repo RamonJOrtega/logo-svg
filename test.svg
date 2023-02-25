@@ -181,7 +181,7 @@
     />
       <path 
       transform="rotate(-72)"
-       fill="grey" stroke="grey" stroke-width=".05"
+       fill="grey" stroke="grey" stroke-width=".1"
       d="
         M 0 0
         L .553 1.668
